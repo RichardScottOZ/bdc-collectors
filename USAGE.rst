@@ -18,9 +18,9 @@ The ``BDC-Collectors`` extension installs a command line tool named ``bdc-collec
 
 - ``show-providers``: List all the supported providers.
 
-- ``search``: Search for products on remote server.
+- ``search``: Search for products on a remote server.
 
-- ``download``: Download scenes from remote server.
+- ``download``: Download scenes from a remote server.
 
 - ``priority``: Download scenes associated with ``bdc_catalog.models.Collection`` and ``bdc_catalog.models.Provider``.
 
@@ -97,7 +97,7 @@ To search for Landsat-8 Digital Number in `USGS Earth Explorer <https://earthexp
       - ``Landsat-4/5``, use ``dataset=LANDSAT_TM_C1``
       - ``Landsat-7``, use ``dataset=LANDSAT_ETM_C1``
 
-    In the future, we will implement a way to request for L8 Surface Reflectance data sets.
+    In the future, we will implement a way to request L8 Surface Reflectance data sets.
 
 
 Download scenes
@@ -120,7 +120,7 @@ The command ``download`` has the following parameters::
 
     Currently, you can only download by ``scene_id`` like ``S2B_MSIL1C_20200223T135109_N0209_R024_T21LZG_20200223T153255``.
 
-    We will implement way to download from tiles, since some apis (`sentinel-sat` - `SciHub`) already support this feature.
+    We will implement a way to download from tiles, since some apis (`sentinel-sat` - `SciHub`) already support this feature.
 
 
 USGS
